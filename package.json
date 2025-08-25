@@ -1,0 +1,31 @@
+{
+  "name": "wt-journey-backend-01-etapa-3-mtuliodspirito",
+  "version": "1.0.0",
+  "description": "API REST para gerenciamento de agentes e casos da polícia",
+  "main": "server.js",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "joi": "^18.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "knex": "^3.1.0",
+    "pg": "^8.16.3",
+    "uuid": "^11.1.0",
+    "zod": "^4.0.17"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mtuliodspirito/wt-journey-backend-01-etapa-3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "homepage": ""
+}
